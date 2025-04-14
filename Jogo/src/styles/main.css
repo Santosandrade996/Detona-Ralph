@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(../images/parede.png);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    height: 90px;
+    width: 100%;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border-bottom: 5px solid #eecd0f;
+}
+
+.panel {
+    margin-top: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square {
+    height: 150px;
+    width: 150px;
+    background-image: url(../images/janela-sem-o-boneco.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.enemy {
+    background-image: url("../images/ralph.png"), url(/src/images/janela-com\ o\ ralph.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.menu-lives {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-time h2:nth-child(2), 
+.menu-score h2:nth-child(2) {
+    margin-top: 1em;
+}
